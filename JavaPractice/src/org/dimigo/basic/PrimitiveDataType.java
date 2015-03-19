@@ -1,7 +1,6 @@
 package org.dimigo.basic;
 
 public class PrimitiveDataType {
-	//Developed by JuWoong Bae;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String name = "æ∆¿Ã¿Ø";
