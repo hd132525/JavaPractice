@@ -7,7 +7,12 @@ public class Condition {
 		int length=30, cost, add;
 		String value = "고속버스";
 		
-		
+		//Insert Value
+		/*Scanner scan = new Scanner(System.in);
+		System.out.println("차종을 입력하세요. (고속버스/경차/등..)");
+		value = scan.nextLine();
+		System.out.println("주행거리를 입력하세요. (정수)");
+		length = scan.nextInt();*/
 		
 		if(value.equals("고속버스")) {
 			cost = 850; add = 300;
@@ -29,5 +34,7 @@ public class Condition {
 		System.out.println("차량: " + value);
 		System.out.println("통행료: " + cost + "원");
 		
+		//Scanner close
+		//scan.close();
 	}
 }
