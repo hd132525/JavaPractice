@@ -23,9 +23,13 @@ public class Car2 {
 	private int maxSpeed;
 	private int price;
 	
+	
+	//扁夯 积己
 	public Car2() {
 	}
 	
+	
+	//积己磊
 	public Car2(String company, String model, String color, int maxSpeed, int price) {
 		this.company = company;
 		this.model = model;
