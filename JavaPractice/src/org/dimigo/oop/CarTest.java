@@ -24,7 +24,7 @@ public class CarTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Init All class
-		Car hyun = new Car();
+		/*Car hyun = new Car();
 		Car kia = new Car();
 		Car sam = new Car();
 		
@@ -47,7 +47,11 @@ public class CarTest {
 		sam.setModel("SM7");
 		sam.setColor("회색");
 		sam.setMaxSpeed(200);
-		sam.setPrice(38000000);
+		sam.setPrice(38000000);*/
+		
+		Car2 hyun = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car2 kia = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+		Car2 sam = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 		
 		//Print All
 		System.out.println("<<자동차 목록>>");
