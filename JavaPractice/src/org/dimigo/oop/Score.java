@@ -18,6 +18,8 @@ import java.util.Scanner;
  * @author tamiflus
  *
  */
+
+//Commit Text
 public class Score {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
