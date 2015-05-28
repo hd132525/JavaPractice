@@ -24,18 +24,22 @@ public class SnackTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Set & Init New Snack Array
 		Snack[] arr = new Snack[] {
 				new Snack("새우깡", "농심", 1100, 2),
 				new Snack("콘칲", "크라운", 1200, 1),
 				new Snack("허니버터칩", "해태", 1500, 4)
 		};
 		
+		//Init sum;
 		int sum = 0;
 		
+		//Print Snack;
 		for (Snack s : arr) {
 			s.printSnack();
 			sum += s.calcPrice();
 		}
+		
 		
 		System.out.println("총 구매 금액 : " + String.format("%,d", sum) +"원");
 
