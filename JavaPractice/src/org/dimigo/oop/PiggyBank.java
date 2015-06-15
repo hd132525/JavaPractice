@@ -28,4 +28,13 @@ public class PiggyBank {
 	public static void printBalance() {
 		System.out.println("돼지저금통 총 금액 : "+balance+"원");
 	}
+	
+	public static void stoleMoney(FamilyMember member, int amount) {
+		if(balance - amount < 0) {
+			System.out.printf("%d원을 가져가려 했는데 돈이 부족합니다.\n", amount);
+			amount = balance;
+		}
+		balance -= amount;
+		System.out.printf("%s %d원 가져감\n", member.getMemberName(), amount);
+	}
 }
