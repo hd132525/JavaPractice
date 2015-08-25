@@ -25,14 +25,14 @@ public class SmartPhone {
 	public void pay(){
 	}
 	
-	public void useSpecialFunction(SmartPhone phone) {
-		if(phone instanceof IPhone) {
-			IPhone smartphone = (IPhone) phone;
+	public void useSpecialFunction() {
+		if(this instanceof IPhone) {
+			IPhone smartphone = (IPhone) this;
 			smartphone.useAirDrop();
-		} else if (phone instanceof Galaxy) {
-			Galaxy smartphone = (Galaxy) phone;
+		} else if (this instanceof Galaxy) {
+			Galaxy smartphone = (Galaxy) this;
 			smartphone.useWirelessCharging();
-		}
+		}		
 	}
 	
 	@Override
